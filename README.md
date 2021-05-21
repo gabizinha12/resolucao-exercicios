@@ -3,6 +3,7 @@ Seja bem vindo! Este repositório é dedicado a resolução de exercícios acad�
 
 ## Autores
 [Miguel Nischor](https://www.linkedin.com/in/mgnischor/)
+[Gabriel Lins](https://www.linkedin.com/in/gabrielfurtadolinsmelo/)
 
 ## Licença
 Leia o arquivo [LICENSE](https://github.com/codebrasil/resolucao-exercicios/blob/main/LICENSE) para mais informações. Utilizamos licença GPLv3
