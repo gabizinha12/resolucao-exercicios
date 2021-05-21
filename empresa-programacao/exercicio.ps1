@@ -4,7 +4,6 @@
 # Descrição: Resolução do exercício empresa-programacao em linguagem Powershell
 # Autor: Sergio Souza Novak <serginhosnovak@hotmail.com>
 
-
 class Funcionario{
     [String]$Nome
     [int]$Registro
@@ -30,17 +29,11 @@ class Funcionario{
 class Imperio{
     [Funcionario[]]$empresa
     Imperio(){
-        $this.empresa = @();
-        
-        
+        $this.empresa = @();    
     }
-
-
+    
     [void] RealizarAcao([int]$op){
         Write-Host ($op)
-        # $funcionario = [Funcionario]::new()
-        # Write-Host ($op.GetType())
-        
         switch ( $op )
         {
             1 {
@@ -48,13 +41,11 @@ class Imperio{
                 $funcionario = [Funcionario]::new()
                 $funcionario.darEntrada()
                 $this.empresa += $funcionario
-                
             }   
             2 {
                 foreach ($item in $this.empresa) {
                 Write-Host ($item | Format-List | Out-String)
                  }
-
             }  
             3{
                 #Ainda não implementado
@@ -69,18 +60,13 @@ class Imperio{
 
             }
         }
-
-
-
     }
 }
 
 class UI{
 
     [Imperio]$imperio
-
-
-
+    
     [int]AbrirMenu(){
 
         Write-Host "=== Controle de Funcionarios ==="
@@ -94,7 +80,6 @@ class UI{
 
     UI(){
         $this.imperio = [Imperio]::new()
-
     }
 
     [void]start(){
@@ -102,8 +87,7 @@ class UI{
         do{
            $op =  $this.AbrirMenu()
            $this.imperio.RealizarAcao($op -as [int])
-
-        
+           
         }while(($op -as [int]) -ne 0)
     }
 
