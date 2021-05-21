@@ -1,7 +1,7 @@
 """Programa: exercicio.py
 
 Descrição: Resolução do exercício empresa-programacao em linguagem Python
-Autor: Miguel Nischor <miguel@nischor.com.br>
+Autor: Gabriel Lins <gabrielinsmelo@gmail.com>
 """
 
 import os
