@@ -3,7 +3,7 @@ Seja bem vindo! Este repositório é dedicado a resolução de exercícios acad�
 
 ## Autores
 [Miguel Nischor](https://www.linkedin.com/in/mgnischor/)<br />
-[Gabriel Lins](https://www.linkedin.com/in/gabrielfurtadolinsmelo/)
+[Gabriel Lins](https://www.linkedin.com/in/gabrielfurtadolinsmelo/)<br />
 [Sergio Souza Novak](https://www.linkedin.com/in/sergio-souza-a599a4114/)
 
 
