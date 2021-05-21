@@ -4,6 +4,8 @@ Seja bem vindo! Este repositório é dedicado a resolução de exercícios acad�
 ## Autores
 [Miguel Nischor](https://www.linkedin.com/in/mgnischor/)<br />
 [Gabriel Lins](https://www.linkedin.com/in/gabrielfurtadolinsmelo/)
+[Sergio Souza Novak](https://www.linkedin.com/in/sergio-souza-a599a4114/)
+
 
 ## Licença
 Leia o arquivo [LICENSE](https://github.com/codebrasil/resolucao-exercicios/blob/main/LICENSE) para mais informações. Utilizamos licença GPLv3
