@@ -74,6 +74,8 @@ class UI{
         Write-Host "1. Cadastro" 
         Write-Host "2. Relatorio Geral" 
         Write-Host "3. Relatorio por nivel salarial" 
+        
+        #Aqui um ponto interessante da linguagem, cada operação de leitura precisa obrigatóriamente exibir um texto antes
         $op = Read-Host "4. Custo mensal dos funcionarios para o imperio"
         return [int]$op
     }
